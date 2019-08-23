@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		642581582301B2FB0079B4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642581572301B2FB0079B4FD /* AppDelegate.swift */; };
-		6425815A2301B2FB0079B4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642581592301B2FB0079B4FD /* ViewController.swift */; };
-		6425815D2301B2FB0079B4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6425815B2301B2FB0079B4FD /* Main.storyboard */; };
 		6425815F2301B2FC0079B4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6425815E2301B2FC0079B4FD /* Assets.xcassets */; };
 		642581622301B2FC0079B4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642581602301B2FC0079B4FD /* LaunchScreen.storyboard */; };
+		6425816A2301B5180079B4FD /* AppFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642581692301B5180079B4FD /* AppFlowController.swift */; };
+		6425816C2301B7330079B4FD /* BLECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425816B2301B7330079B4FD /* BLECentral.swift */; };
+		6425816E2301BC890079B4FD /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425816D2301BC890079B4FD /* DiscoveryViewController.swift */; };
+		642581732301C61E0079B4FD /* DiscoveredPeripheralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642581712301C61E0079B4FD /* DiscoveredPeripheralCell.swift */; };
+		642581742301C61E0079B4FD /* DiscoveredPeripheralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642581722301C61E0079B4FD /* DiscoveredPeripheralCell.xib */; };
+		642581762301D5AD0079B4FD /* DiscoveredPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642581752301D5AD0079B4FD /* DiscoveredPeripheral.swift */; };
+		6425817C230206D50079B4FD /* BLEIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425817B230206D50079B4FD /* BLEIdentifiers.swift */; };
+		6425817E23020CD50079B4FD /* BLERoleSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425817D23020CD50079B4FD /* BLERoleSelectViewController.swift */; };
+		6425818023020D100079B4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6425817F23020D100079B4FD /* Main.storyboard */; };
+		6440755D230484B700901174 /* DeviceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6440755B230484B700901174 /* DeviceInfoViewController.swift */; };
+		6440755E230484B700901174 /* DeviceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6440755C230484B700901174 /* DeviceInfoViewController.xib */; };
+		644075622304879F00901174 /* BatteryLevelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644075612304879F00901174 /* BatteryLevelDataSource.swift */; };
+		644075642304883900901174 /* DeviceBatteryLevelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644075632304883900901174 /* DeviceBatteryLevelDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		642581542301B2FB0079B4FD /* BLESensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		642581572301B2FB0079B4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		642581592301B2FB0079B4FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6425815C2301B2FB0079B4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6425815E2301B2FC0079B4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		642581612301B2FC0079B4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642581632301B2FC0079B4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		642581692301B5180079B4FD /* AppFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowController.swift; sourceTree = "<group>"; };
+		6425816B2301B7330079B4FD /* BLECentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECentral.swift; sourceTree = "<group>"; };
+		6425816D2301BC890079B4FD /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		642581712301C61E0079B4FD /* DiscoveredPeripheralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredPeripheralCell.swift; sourceTree = "<group>"; };
+		642581722301C61E0079B4FD /* DiscoveredPeripheralCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoveredPeripheralCell.xib; sourceTree = "<group>"; };
+		642581752301D5AD0079B4FD /* DiscoveredPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredPeripheral.swift; sourceTree = "<group>"; };
+		6425817B230206D50079B4FD /* BLEIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEIdentifiers.swift; sourceTree = "<group>"; };
+		6425817D23020CD50079B4FD /* BLERoleSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLERoleSelectViewController.swift; sourceTree = "<group>"; };
+		6425817F23020D100079B4FD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6440755B230484B700901174 /* DeviceInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoViewController.swift; sourceTree = "<group>"; };
+		6440755C230484B700901174 /* DeviceInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceInfoViewController.xib; sourceTree = "<group>"; };
+		644075612304879F00901174 /* BatteryLevelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelDataSource.swift; sourceTree = "<group>"; };
+		644075632304883900901174 /* DeviceBatteryLevelDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceBatteryLevelDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,41 @@
 		642581562301B2FB0079B4FD /* BLESensor */ = {
 			isa = PBXGroup;
 			children = (
+				6440755F2304874B00901174 /* Data */,
 				642581572301B2FB0079B4FD /* AppDelegate.swift */,
-				642581592301B2FB0079B4FD /* ViewController.swift */,
-				6425815B2301B2FB0079B4FD /* Main.storyboard */,
-				6425815E2301B2FC0079B4FD /* Assets.xcassets */,
+				642581692301B5180079B4FD /* AppFlowController.swift */,
+				6440755B230484B700901174 /* DeviceInfoViewController.swift */,
+				6440755C230484B700901174 /* DeviceInfoViewController.xib */,
+				6425817B230206D50079B4FD /* BLEIdentifiers.swift */,
+				6425817F23020D100079B4FD /* Main.storyboard */,
+				642581752301D5AD0079B4FD /* DiscoveredPeripheral.swift */,
+				6425816B2301B7330079B4FD /* BLECentral.swift */,
+				6425817D23020CD50079B4FD /* BLERoleSelectViewController.swift */,
+				642581712301C61E0079B4FD /* DiscoveredPeripheralCell.swift */,
+				642581722301C61E0079B4FD /* DiscoveredPeripheralCell.xib */,
+				6425816D2301BC890079B4FD /* DiscoveryViewController.swift */,
 				642581602301B2FC0079B4FD /* LaunchScreen.storyboard */,
+				6425815E2301B2FC0079B4FD /* Assets.xcassets */,
 				642581632301B2FC0079B4FD /* Info.plist */,
 			);
 			path = BLESensor;
+			sourceTree = "<group>";
+		};
+		6440755F2304874B00901174 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				644075602304878700901174 /* Battery */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		644075602304878700901174 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				644075612304879F00901174 /* BatteryLevelDataSource.swift */,
+				644075632304883900901174 /* DeviceBatteryLevelDataSource.swift */,
+			);
+			path = Battery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +171,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6440755E230484B700901174 /* DeviceInfoViewController.xib in Resources */,
 				642581622301B2FC0079B4FD /* LaunchScreen.storyboard in Resources */,
+				642581742301C61E0079B4FD /* DiscoveredPeripheralCell.xib in Resources */,
 				6425815F2301B2FC0079B4FD /* Assets.xcassets in Resources */,
-				6425815D2301B2FB0079B4FD /* Main.storyboard in Resources */,
+				6425818023020D100079B4FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +186,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6425815A2301B2FB0079B4FD /* ViewController.swift in Sources */,
+				6425816A2301B5180079B4FD /* AppFlowController.swift in Sources */,
+				642581762301D5AD0079B4FD /* DiscoveredPeripheral.swift in Sources */,
+				6425817E23020CD50079B4FD /* BLERoleSelectViewController.swift in Sources */,
+				642581732301C61E0079B4FD /* DiscoveredPeripheralCell.swift in Sources */,
 				642581582301B2FB0079B4FD /* AppDelegate.swift in Sources */,
+				6425817C230206D50079B4FD /* BLEIdentifiers.swift in Sources */,
+				644075642304883900901174 /* DeviceBatteryLevelDataSource.swift in Sources */,
+				6440755D230484B700901174 /* DeviceInfoViewController.swift in Sources */,
+				644075622304879F00901174 /* BatteryLevelDataSource.swift in Sources */,
+				6425816C2301B7330079B4FD /* BLECentral.swift in Sources */,
+				6425816E2301BC890079B4FD /* DiscoveryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6425815B2301B2FB0079B4FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6425815C2301B2FB0079B4FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		642581602301B2FC0079B4FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F628878NJN;
 				INFOPLIST_FILE = BLESensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F628878NJN;
 				INFOPLIST_FILE = BLESensor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
